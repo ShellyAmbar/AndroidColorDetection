@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextureView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:elevation="30dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="R:   G:   B:   "
+        android:id="@+id/textViewFive"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textViewFour"
+        android:background="@drawable/circular_shape_blue"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+
+
+    <TextView
+        android:elevation="30dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="R:   G:   B:   "
+        android:id="@+id/textViewFour"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textViewThree"
+        android:background="@drawable/circular_shape_blue"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:elevation="30dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="R:   G:   B:   "
+        android:id="@+id/textViewThree"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textViewTwo"
+        android:background="@drawable/circular_shape_blue"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+
+    <TextView
+        android:elevation="30dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="R:   G:   B:   "
+        android:id="@+id/textViewTwo"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textViewOne"
+        android:background="@drawable/circular_shape_blue"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:padding="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+
+
+
+    <TextView
+        android:elevation="30dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:padding="3dp"
+        android:text="R:   G:   B:   "
+        android:id="@+id/textViewOne"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+       android:layout_above="@id/capturePictureBtn"
+        android:background="@drawable/circular_shape_blue"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/capturePictureBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="30dp"
+        android:src="@drawable/ic_local_see_black_24dp"
+        app:backgroundTint="#2196F3" />
+
+</RelativeLayout>
